@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchCountries } from '../../services/country';
 
-import CountryCard from '../components/CountryCard/CountryCard';
+import CountryCard from '../components/CountryCard/';
 export default function Main() {
     useEffect(() => {
         const fetchCountries = async () => {
